@@ -1,0 +1,72 @@
+
+/* selecor de tipo etiqueta HTML */
+
+*{
+    font-family: 'Gabarito', sans-serif;
+    
+}
+body{
+    background-color: rgb(206, 195, 243);
+}
+
+h1{
+    background-color: rgb(208, 156, 221);
+    width: 300px;
+     padding: 10px;  /*espacio interno */
+    border: 2px dashed rgb(147, 75, 189);
+    margin: 20px;
+    text-align: center;
+}
+
+p{
+    text-align: justify;    
+    text-transform: uppercase;
+    
+}
+ul li{
+    text-decoration: none;
+}
+
+
+img{
+    width: 400px;
+    height: 250px;
+    border-radius: 50%; /* esquinas redondeadas */
+}
+
+.centrar{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.targeta{
+    background-color: rgba(218, 127, 169, 0.753);
+    margin: 20px;
+}
+#titulo{
+    color: rgb(96, 78, 177);
+}
+#titulo-historia{
+    color: blueviolet;
+}
+#titulo-que{
+    color: rgb(252, 252, 252);
+}
+#titulo-AS{
+    color: rgb(165, 166, 241);
+}
+#titulo-AG{
+    color: rgb(216, 160, 95);
+}
+#titulo-F{
+    color: rgb(45, 212, 95);
+}
+#titulo-S{
+    color: rgb(45, 212, 95);
+}
+
+#quien{
+    border: 1px solid blue;
+}
+
